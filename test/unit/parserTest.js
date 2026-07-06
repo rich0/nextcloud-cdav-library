@@ -7,6 +7,8 @@
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
+// CI smoke: verify fork GitHub Actions (safe to remove after PR closes).
+
 import { describe, expect, it } from "vitest";
 
 import Parser from '../../src/parser.js';
